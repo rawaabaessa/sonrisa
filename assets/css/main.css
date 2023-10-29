@@ -1,0 +1,130 @@
+:root{
+    --primary:#2e3192;
+    --orange :#f4572e;
+    --pink :#feeaeb;
+    --lightblue: #eef7ff;
+}
+.fs-6 {
+    font-size: 0.7rem !important;
+}
+.bg-pink{
+    background-color:var(--pink) ;
+}
+.bg-pink > i{
+    color: var(--primary) !important;
+}
+.bg-lightblue{
+    background-color: var(--lightblue) ;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: white;
+    border-radius: 3px;
+    color: var(--primary);
+}
+.carousel-indicators > :first-child{
+    background-color: var(--orange);
+}
+.carousel-indicators > button:nth-child(2){
+    background-color: var(--lightblue);
+}
+.carousel-indicators > button:nth-child(3){
+    background-color: var(--primary);
+}
+.carousel-indicators{
+    align-items: center;
+}
+.carousel-indicators [data-bs-target]{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators .active{
+    width: 10px;
+    height: 10px;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    opacity: 1;
+}
+.carousel-caption > h1{
+    background-color: white;
+    color: var(--primary);
+    width: fit-content;
+}
+.carousel-caption{
+    text-align: start;
+    bottom: 7.25rem;
+}
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.text-bg-orange {
+    color: #fff !important;
+    background-color: var(--orange) !important;
+}
+.btn-light{
+    background-color: white;
+    color: var(--primary);
+}
+.nav-link,.active{
+    color: var(--primary);
+}
+.navbar-nav .nav-link.active{
+    color: var(--primary);
+}
+.list-style{
+    list-style: none;
+    text-align: justify;
+}
+.plus-style > li::before{
+    content: '+';
+    color: var(--orange);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.bottom-5{
+    bottom: 5px;
+}
+.end-5{
+    right: 5px;
+}
+.bottom-35{
+    bottom: -35px;
+}
+.left-100{
+    left: -100px;
+}
+.right-100{
+    right: -100px;
+}
+.navbar-nav .nav-item{
+    border-top: 2px var(--bs-border-style) transparent;
+}
+.navbar-nav .nav-item.active,.navbar-nav .nav-item:hover{
+    border-top-color: var(--bs-orange);
+}
+.nav-pills .nav-link{
+    border-bottom: 3px solid var(--bs-lightpink);
+}
+.nav-pills .nav-link:hover{
+    border-bottom: 3px solid var(--bs-danger);
+    color: var(--bs-primary);
+}
+.skew::before{
+    content: '';
+    width: 70px;
+    background-color: var(--lightblue);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -5%;
+    transform: skew(-6deg);
+}
+.count{
+    top: 0;
+    right: -14px;
+}
